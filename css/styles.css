@@ -36,7 +36,7 @@ ol {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -56,6 +56,16 @@ ol {
     padding-bottom: 24px;
 }
 
+.header-container {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    gap: 76px;
+    flex-grow: 1;
+}
+
 .header-logo-link {
     text-decoration: none;
     color: var(--primary-brand-cl);
@@ -73,6 +83,8 @@ ol {
 
 .nav-list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link {
@@ -88,6 +100,12 @@ ol {
 
 .contacts {
     font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+
 }
 
 .contact-link {
@@ -131,6 +149,8 @@ ol {
     line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -146,8 +166,17 @@ ol {
     visibility: hidden;
 }
 
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 .features-list li {
-    max-width: 264px;
+    width: 264px;
 }
 
 .features-list-title {
@@ -173,6 +202,11 @@ ol {
     text-transform: capitalize;
     color: var(--secondary-txt-cl);
     margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-card-img {
@@ -201,15 +235,10 @@ ol {
 }
 
 
-.porfolio {
+.portfolio {
     padding: 120px 0;
 }
 
-.portfolio-card {
-    padding-bottom: 32px;
-    max-width: 360px;
-    max-height: 420px;
-}
 
 .portfolio-title {
     font-size: 36px;
@@ -222,18 +251,30 @@ ol {
     margin-bottom: 72px;
 }
 
-.porfolio-card-img {
-    margin-bottom: 32px;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
-.porfolio-card-title {
+.portfolio-card-card {
+    width: calc((100 - 2 * 24px) / 3);
+}
+
+.portfolio-card-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
+    padding-top: 32px;
     margin-bottom: 16px;
     margin-left: 16px;
+}
+
+.portfolio-card-content {
+    border: solid var(--accent-cl);
+    border-width: 0 1px 1px 1px;
 }
 
 .portfolio-card-text {
@@ -242,13 +283,14 @@ ol {
     letter-spacing: 0.02em;
     color: var(--primary-txt-cl);
     margin-left: 16px;
+    margin-bottom: 32px;
 }
 
 .footer {
     background-color: var(--hero-bg-cl);
     color: var(--lightmod-bg-cl);
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo-link {
