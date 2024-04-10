@@ -70,14 +70,15 @@ ol {
 
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0 15px;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
   flex-grow: 1;
   align-items: center;
+  padding: 24px 0;
 }
 
 .header-logo-link {
@@ -270,7 +271,7 @@ ol {
   gap: 48px 24px;
 }
 
-.portfolio-card-card {
+.portfolio-card {
   width: calc((100 - 2 * 24px) / 3);
 }
 
@@ -280,14 +281,13 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
-  padding-top: 32px;
-  margin-bottom: 16px;
-  margin-left: 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-card-content {
-  border: solid var(--accent-cl);
-  border-width: 0 1px 1px 1px;
+  border: 1px solid var(--accent-cl);
+  border-top: none;
+  padding: 32px 16px;
 }
 
 .portfolio-card-text {
@@ -295,8 +295,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-txt-cl);
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 .footer {
@@ -308,6 +306,7 @@ ol {
 
 .footer-logo-link {
   color: var(--primary-brand-cl);
+  display: inline-block;
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 18px;
