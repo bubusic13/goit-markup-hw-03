@@ -78,7 +78,6 @@ ol {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-logo-link {
@@ -91,6 +90,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-logo-part {
