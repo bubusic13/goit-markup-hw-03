@@ -90,7 +90,6 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header-logo-part {
@@ -107,6 +106,8 @@ ol {
   text-decoration: none;
   font-weight: 500;
   color: var(--secondary-txt-cl);
+  padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
