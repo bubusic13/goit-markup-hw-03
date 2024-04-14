@@ -149,7 +149,7 @@ ol {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,10 +192,6 @@ ol {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-.features-list li {
-  width: 264px;
-}
-
 .features-list-title {
   font-size: 20px;
   line-height: 1.2;
@@ -228,8 +224,7 @@ ol {
 
 .team-card {
   background-color: var(--primary-background-cl);
-  max-width: 264px;
-  max-height: 380px;
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -273,7 +268,7 @@ ol {
 }
 
 .portfolio-card {
-  width: calc((100 - 2 * 24px) / 3);
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-card-title {
